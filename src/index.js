@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './containers/App';
+import { v4 as uuidv4 } from 'uuid';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App parentKey={uuidv4()} apiKey='1ccb732e-b55a-4404-ad3f-0f99c02fe44e'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
