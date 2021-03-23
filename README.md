@@ -1,1 +1,3 @@
-## See the SOLUTION.md file for details for running this project
+## React Playground
+
+See the SOLUTION.md file for details for running this project
